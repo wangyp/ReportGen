@@ -1,0 +1,49 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="9F788645-FBC1-4EC0-B4A0-A23016123DEA/f:Main.cs" caret="0" fromTop="0" />
+      <File id="9F788645-FBC1-4EC0-B4A0-A23016123DEA/d:Model/f:DataField.cs" caret="169" fromTop="12" />
+      <File id="9F788645-FBC1-4EC0-B4A0-A23016123DEA/d:Service/f:WordReportGenerator.cs" caret="714" fromTop="21" />
+      <File id="9F788645-FBC1-4EC0-B4A0-A23016123DEA/d:Dal/f:DataFieldRepository.cs" caret="131" fromTop="7" />
+      <File id="9F788645-FBC1-4EC0-B4A0-A23016123DEA/d:Dal/f:IDataFieldRepository.cs" caret="131" fromTop="7" />
+      <File id="3FC49B9B-F38A-4E7D-8579-CF5533903F4B/f:DalTest.cs" caret="362" fromTop="15" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="9F788645-FBC1-4EC0-B4A0-A23016123DEA/d:Service/f:WordReportGenerator.cs" caret="1362" fromTop="10" />
+      <File id="9F788645-FBC1-4EC0-B4A0-A23016123DEA/d:Service/f:WordReportGenerator.cs" caret="179" fromTop="8" />
+      <File id="9F788645-FBC1-4EC0-B4A0-A23016123DEA/d:Service/f:WordReportGenerator.cs" caret="342" fromTop="12" />
+      <File id="9F788645-FBC1-4EC0-B4A0-A23016123DEA/d:Model/f:DataField.cs" caret="133" fromTop="7" />
+      <File id="9F788645-FBC1-4EC0-B4A0-A23016123DEA/d:Model/f:DataField.cs" caret="169" fromTop="12" />
+      <File id="3FC49B9B-F38A-4E7D-8579-CF5533903F4B/f:DalTest.cs" caret="453" fromTop="17" />
+      <File id="3FC49B9B-F38A-4E7D-8579-CF5533903F4B/f:DalTest.cs" caret="165" fromTop="6" />
+      <File id="9F788645-FBC1-4EC0-B4A0-A23016123DEA/d:Dal/f:IDataFieldRepository.cs" caret="131" fromTop="7" />
+      <File id="3FC49B9B-F38A-4E7D-8579-CF5533903F4B/f:DalTest.cs" caret="350" fromTop="14" />
+      <File id="9F788645-FBC1-4EC0-B4A0-A23016123DEA/d:Dal/f:DataFieldRepository.cs" caret="131" fromTop="7" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="using" priority="30" />
+      <Item value="return" priority="31" />
+      <Item value="new" priority="31" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>
