@@ -10,10 +10,8 @@ namespace ReportGenTest
     [TestClass]
     public class ServiceTest
     {
-        public IDataFieldRepository DataFieldRepository { get
-        {
-            return new Data
-        }}
+        public IDataFieldRepository DataFieldRepository { get; set; }
+
         [TestMethod]
         public void TestMethod1()
         {

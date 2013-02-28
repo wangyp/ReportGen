@@ -52,6 +52,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dal\DataFieldRepository.cs" />
+    <Compile Include="Dal\IDataFieldRepository.cs" />
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -82,7 +84,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Dal\" />
+    <Folder Include="DataBase\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
