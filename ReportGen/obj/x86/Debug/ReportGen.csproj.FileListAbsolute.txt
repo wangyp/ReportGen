@@ -9,3 +9,5 @@ d:\GitProject\GitHub\ReportGen\ReportGen\obj\x86\Debug\GenerateResource.read.1.t
 d:\GitProject\GitHub\ReportGen\ReportGen\obj\x86\Debug\GenerateResource.write.1.tlog
 d:\GitProject\GitHub\ReportGen\ReportGen\obj\x86\Debug\ReportGen.exe
 d:\GitProject\GitHub\ReportGen\ReportGen\obj\x86\Debug\ReportGen.pdb
+D:\GitProject\GitHub\ReportGen\ReportGen\bin\Debug\DataBase\ReportData.s3db
+D:\GitProject\GitHub\ReportGen\ReportGen\bin\Debug\System.Data.SQLite.dll
