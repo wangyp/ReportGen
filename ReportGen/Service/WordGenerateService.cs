@@ -4,28 +4,47 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using ReportGen.Model;
+using ReportGen.Service.Generator;
 using WordDocumentGenerator.Library;
 
 namespace ReportGen.Service
 {
-    class WordGenerateService
+    public class WordGenerateService
     {
-        
+        public const string SUBSCRIBESUMMARY = "SubscribeSummary";
+
+        private static string TemplatePath = @"d:\GitProject\GitHub\ReportGen\ReportGen\Template\";
+        private static string OutputPath = @"d:\GitProject\GitHub\ReportGen\ReportGen\out\";
+
+
         /// <summary>
         /// Generates the document using sample doc generator.
         /// </summary>
-        private static void GenerateDocumentUsingSampleDocGenerator()
+        public static void Generate(string template, DocumentGenerationInfo generationInfo, string outputFileName)
         {
-            // Test document generation from template("Test_Template - 1.docx")
-            DocumentGenerationInfo generationInfo = GetDocumentGenerationInfo("SampleDocumentGenerator", "1.0", GetReportData(),
-                                                    "Test_Template - 1.docx", false);
 
-            WordReportGenerator sampleDocumentGenerator = new WordReportGenerator(generationInfo);
-            byte[] result = result = sampleDocumentGenerator.GenerateDocument();
-            WriteOutputToFile("Test_Template1_Out.docx", "Test_Template - 1.docx", result);
+            WordReportGenerator sampleDocumentGenerator = GetGenerator(template, generationInfo);
+            byte[] result = sampleDocumentGenerator.GenerateDocument();
+            WriteOutputToFile(outputFileName, result);
         }
 
-        private static ReportData GetReportData()
+        /// <summary>
+        /// Generates the document using sample doc generator.
+        /// </summary>
+        public static void Generate(string template, ReportData data, string outputFileName)
+        {
+            var info = GetDocumentGenerationInfo(data, template + ".docx");
+            Generate(template, info, outputFileName);
+        }
+
+
+#region Private
+        private static WordReportGenerator GetGenerator(string name, DocumentGenerationInfo generationInfo)
+        {
+            return WordReportGenerator.Create(name, generationInfo);
+        }
+
+        private static ReportData GetReportData(string name)
         {
             throw new NotImplementedException();
         }
@@ -33,19 +52,16 @@ namespace ReportGen.Service
         /// <summary>
         /// Gets the document generation info.
         /// </summary>
-        /// <param name="docType">Type of the doc.</param>
-        /// <param name="docVersion">The doc version.</param>
         /// <param name="dataContext">The data context.</param>
-        /// <param name="fileName">Name of the file.</param>
-        /// <param name="useDataBoundControls">if set to <c>true</c> [use data bound controls].</param>
+        /// <param name="templateFileName">Name of the file.</param>
         /// <returns></returns>
-        private static DocumentGenerationInfo GetDocumentGenerationInfo(string docType, string docVersion, object dataContext, string fileName, bool useDataBoundControls)
+        private static DocumentGenerationInfo GetDocumentGenerationInfo(object dataContext, string templateFileName)
         {
             DocumentGenerationInfo generationInfo = new DocumentGenerationInfo();
-            generationInfo.Metadata = new DocumentMetadata() { DocumentType = docType, DocumentVersion = docVersion };
+            generationInfo.Metadata = new DocumentMetadata() { DocumentType = "SampleDocumentGenerator", DocumentVersion = "1.0" };
             generationInfo.DataContext = dataContext;
-            generationInfo.TemplateData = File.ReadAllBytes(Path.Combine("Sample Templates", fileName));
-            generationInfo.IsDataBoundControls = useDataBoundControls;
+            generationInfo.TemplateData = File.ReadAllBytes(Path.Combine(TemplatePath, templateFileName));
+            generationInfo.IsDataBoundControls = false;
 
             return generationInfo;
         }
@@ -55,27 +71,26 @@ namespace ReportGen.Service
         /// Writes the output to file.
         /// </summary>
         /// <param name="fileName">Name of the file.</param>
-        /// <param name="templateName">Name of the template.</param>
         /// <param name="fileContents">The file contents.</param>
-        private static void WriteOutputToFile(string fileName, string templateName, byte[] fileContents)
+        private static void WriteOutputToFile(string fileName, byte[] fileContents)
         {
             ConsoleColor consoleColor = Console.ForegroundColor;
 
             if (fileContents != null)
             {
-                File.WriteAllBytes(Path.Combine("Sample Templates", fileName), fileContents);
+                File.WriteAllBytes(Path.Combine(OutputPath, fileName), fileContents);
                 Console.ForegroundColor = ConsoleColor.Green;
-                Console.WriteLine(string.Format("Generation succeeded for template({0}) --> {1}", templateName, fileName));
+                Console.WriteLine(string.Format("Generation succeeded for ({0}) ",  fileName));
                 Console.WriteLine();
             }
             else
             {
                 Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine(string.Format("Generation failed for template({0}) --> {1}", templateName, fileName));
+                Console.WriteLine(string.Format("Generation failed for ({0})", fileName));
             }
 
             Console.ForegroundColor = consoleColor;
         }
-
+#endregion
     }
 }

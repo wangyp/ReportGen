@@ -1,21 +1,26 @@
-﻿using System;
-using System.Text;
-using System.Collections.Generic;
-using System.Linq;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using NUnit.Framework;
+using ReportGen.Model;
 using ReportGen.Service;
 using WordDocumentGenerator.Library;
 
 namespace ReportGenTest
 {
-    [TestClass]
-    public class DalTest
+    [TestFixture]
+    public class ServiceTest : TestBase
     {
-        [TestMethod]
-        public void TestMethod1()
+        private WordGenerateService service;
+
+        [TestFixtureSetUp]
+        public void SetUp()
         {
-            DocumentGenerationInfo info;
-            var generator = new WordReportGenerator(info);
+            service = new WordGenerateService();
+        }
+
+        [Test]
+        public void DocGenerateTest()
+        {
+            ReportData data = GetSampleData();
+            WordGenerateService.Generate(WordGenerateService.SUBSCRIBESUMMARY, data, "test.docx");
         }
     }
 }

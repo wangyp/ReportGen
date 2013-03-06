@@ -1,27 +1,24 @@
-﻿using System;
-using System.Diagnostics;
-using System.Text;
+﻿using System.Diagnostics;
 using System.Collections.Generic;
-using System.Linq;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 using ReportGen.Dal;
 using ReportGen.Model;
 
 namespace ReportGenTest
 {
-    [TestClass]
-    public class ServiceTest
+    [TestFixture]
+    public class DalTest
     {
         public IDataFieldRepository DataFieldRepository { get; set; }
 
 
-        [TestInitialize]
+        [TestFixtureSetUp]
         public void init()
         {
             DataFieldRepository = new DataFieldRepository();
         }
 
-        [TestMethod]
+        [Test]
         public void TestSave()
         {
             ReportData data = new ReportData
@@ -43,7 +40,7 @@ namespace ReportGenTest
         }
 
 
-        [TestMethod]
+        [Test]
         public void TestDelete()
         {
             DataFieldRepository.Delete("Data");
