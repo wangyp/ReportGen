@@ -1,24 +1,47 @@
 <Configuration>
   <RecentFiles>
     <RecentFiles>
-      <File id="9F788645-FBC1-4EC0-B4A0-A23016123DEA/f:Main.cs" caret="0" fromTop="0" />
-      <File id="9F788645-FBC1-4EC0-B4A0-A23016123DEA/d:Model/f:DataField.cs" caret="169" fromTop="12" />
-      <File id="9F788645-FBC1-4EC0-B4A0-A23016123DEA/d:Service/f:WordReportGenerator.cs" caret="714" fromTop="21" />
-      <File id="9F788645-FBC1-4EC0-B4A0-A23016123DEA/d:Dal/f:DataFieldRepository.cs" caret="131" fromTop="7" />
-      <File id="9F788645-FBC1-4EC0-B4A0-A23016123DEA/d:Dal/f:IDataFieldRepository.cs" caret="131" fromTop="7" />
-      <File id="3FC49B9B-F38A-4E7D-8579-CF5533903F4B/f:DalTest.cs" caret="362" fromTop="15" />
+      <File id="9F788645-FBC1-4EC0-B4A0-A23016123DEA/d:View/f:Main.cs" caret="0" fromTop="0" />
+      <File id="9F788645-FBC1-4EC0-B4A0-A23016123DEA/d:Dal/f:IDataFieldRepository.cs" caret="394" fromTop="14" />
+      <File id="9F788645-FBC1-4EC0-B4A0-A23016123DEA/d:Dal/f:DataFieldRepository.cs" caret="797" fromTop="12" />
+      <File id="3FC49B9B-F38A-4E7D-8579-CF5533903F4B/f:ServiceTest.cs" caret="478" fromTop="21" />
+      <File id="9F788645-FBC1-4EC0-B4A0-A23016123DEA/d:Service/f:WordGenerateService.cs" caret="233" fromTop="10" />
+      <File id="9F788645-FBC1-4EC0-B4A0-A23016123DEA/d:Dal/f:SqliteHelper.cs" caret="1978" fromTop="25" />
+      <File id="9F788645-FBC1-4EC0-B4A0-A23016123DEA/d:Service/f:WordReportGenerator.cs" caret="160" fromTop="7" />
+      <File id="3FC49B9B-F38A-4E7D-8579-CF5533903F4B/f:DalTest.cs" caret="1065" fromTop="25" />
+      <File id="9F788645-FBC1-4EC0-B4A0-A23016123DEA/d:Model/f:ReportData.cs" caret="68" fromTop="1" />
     </RecentFiles>
     <RecentEdits>
-      <File id="9F788645-FBC1-4EC0-B4A0-A23016123DEA/d:Service/f:WordReportGenerator.cs" caret="1362" fromTop="10" />
-      <File id="9F788645-FBC1-4EC0-B4A0-A23016123DEA/d:Service/f:WordReportGenerator.cs" caret="179" fromTop="8" />
-      <File id="9F788645-FBC1-4EC0-B4A0-A23016123DEA/d:Service/f:WordReportGenerator.cs" caret="342" fromTop="12" />
-      <File id="9F788645-FBC1-4EC0-B4A0-A23016123DEA/d:Model/f:DataField.cs" caret="133" fromTop="7" />
-      <File id="9F788645-FBC1-4EC0-B4A0-A23016123DEA/d:Model/f:DataField.cs" caret="169" fromTop="12" />
-      <File id="3FC49B9B-F38A-4E7D-8579-CF5533903F4B/f:DalTest.cs" caret="453" fromTop="17" />
-      <File id="3FC49B9B-F38A-4E7D-8579-CF5533903F4B/f:DalTest.cs" caret="165" fromTop="6" />
-      <File id="9F788645-FBC1-4EC0-B4A0-A23016123DEA/d:Dal/f:IDataFieldRepository.cs" caret="131" fromTop="7" />
-      <File id="3FC49B9B-F38A-4E7D-8579-CF5533903F4B/f:DalTest.cs" caret="350" fromTop="14" />
-      <File id="9F788645-FBC1-4EC0-B4A0-A23016123DEA/d:Dal/f:DataFieldRepository.cs" caret="131" fromTop="7" />
+      <File id="3FC49B9B-F38A-4E7D-8579-CF5533903F4B/f:DalTest.cs" caret="707" fromTop="21" />
+      <File id="9F788645-FBC1-4EC0-B4A0-A23016123DEA/d:Dal/f:DataFieldRepository.cs" caret="3647" fromTop="37" />
+      <File id="9F788645-FBC1-4EC0-B4A0-A23016123DEA/d:Dal/f:DataFieldRepository.cs" caret="1680" fromTop="29" />
+      <File id="9F788645-FBC1-4EC0-B4A0-A23016123DEA/d:Dal/f:DataFieldRepository.cs" caret="1488" fromTop="15" />
+      <File id="9F788645-FBC1-4EC0-B4A0-A23016123DEA/d:Dal/f:DataFieldRepository.cs" caret="1680" fromTop="26" />
+      <File id="9F788645-FBC1-4EC0-B4A0-A23016123DEA/d:Dal/f:DataFieldRepository.cs" caret="694" fromTop="19" />
+      <File id="9F788645-FBC1-4EC0-B4A0-A23016123DEA/d:Dal/f:IDataFieldRepository.cs" caret="394" fromTop="14" />
+      <File id="3FC49B9B-F38A-4E7D-8579-CF5533903F4B/f:DalTest.cs" caret="565" fromTop="12" />
+      <File id="3FC49B9B-F38A-4E7D-8579-CF5533903F4B/f:DalTest.cs" caret="1549" fromTop="30" />
+      <File id="3FC49B9B-F38A-4E7D-8579-CF5533903F4B/f:DalTest.cs" caret="1386" fromTop="27" />
+      <File id="3FC49B9B-F38A-4E7D-8579-CF5533903F4B/f:DalTest.cs" caret="1199" fromTop="23" />
+      <File id="9F788645-FBC1-4EC0-B4A0-A23016123DEA/d:Dal/f:DataFieldRepository.cs" caret="1522" fromTop="15" />
+      <File id="9F788645-FBC1-4EC0-B4A0-A23016123DEA/d:Dal/f:DataFieldRepository.cs" caret="1467" fromTop="18" />
+      <File id="9F788645-FBC1-4EC0-B4A0-A23016123DEA/d:Dal/f:DataFieldRepository.cs" caret="1005" fromTop="28" />
+      <File id="9F788645-FBC1-4EC0-B4A0-A23016123DEA/d:Dal/f:DataFieldRepository.cs" caret="2689" fromTop="21" />
+      <File id="9F788645-FBC1-4EC0-B4A0-A23016123DEA/d:Dal/f:DataFieldRepository.cs" caret="2319" fromTop="31" />
+      <File id="9F788645-FBC1-4EC0-B4A0-A23016123DEA/d:Dal/f:DataFieldRepository.cs" caret="2319" fromTop="22" />
+      <File id="9F788645-FBC1-4EC0-B4A0-A23016123DEA/d:Dal/f:DataFieldRepository.cs" caret="3252" fromTop="49" />
+      <File id="9F788645-FBC1-4EC0-B4A0-A23016123DEA/d:Dal/f:DataFieldRepository.cs" caret="3015" fromTop="30" />
+      <File id="9F788645-FBC1-4EC0-B4A0-A23016123DEA/d:Dal/f:DataFieldRepository.cs" caret="2526" fromTop="22" />
+      <File id="3FC49B9B-F38A-4E7D-8579-CF5533903F4B/f:ServiceTest.cs" caret="384" fromTop="16" />
+      <File id="9F788645-FBC1-4EC0-B4A0-A23016123DEA/d:Model/f:ReportData.cs" caret="698" fromTop="20" />
+      <File id="9F788645-FBC1-4EC0-B4A0-A23016123DEA/d:Model/f:ReportData.cs" caret="267" fromTop="11" />
+      <File id="9F788645-FBC1-4EC0-B4A0-A23016123DEA/d:Service/f:WordReportGenerator.cs" caret="734" fromTop="22" />
+      <File id="9F788645-FBC1-4EC0-B4A0-A23016123DEA/d:Service/f:WordGenerateService.cs" caret="242" fromTop="9" />
+      <File id="9F788645-FBC1-4EC0-B4A0-A23016123DEA/d:Service/f:WordGenerateService.cs" caret="1158" fromTop="25" />
+      <File id="9F788645-FBC1-4EC0-B4A0-A23016123DEA/d:Service/f:WordGenerateService.cs" caret="651" fromTop="15" />
+      <File id="9F788645-FBC1-4EC0-B4A0-A23016123DEA/d:Service/f:WordGenerateService.cs" caret="1078" fromTop="24" />
+      <File id="9F788645-FBC1-4EC0-B4A0-A23016123DEA/d:Service/f:WordGenerateService.cs" caret="2311" fromTop="26" />
+      <File id="9F788645-FBC1-4EC0-B4A0-A23016123DEA/d:Service/f:WordGenerateService.cs" caret="3471" fromTop="46" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -36,14 +59,146 @@
     <string />
     <integer />
     <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
       <setting name="SolutionAnalysisEnabled">False</setting>
     </boolean>
   </SettingsComponent>
   <CompletionStatisticsManager>
     <ItemStatistics item="CSharpCodeCompletionContext">
-      <Item value="using" priority="30" />
-      <Item value="return" priority="31" />
-      <Item value="new" priority="31" />
+      <Item value="using" priority="62" />
+      <Item value="return" priority="222" />
+      <Item value="new" priority="638" />
+      <Item value="string" priority="284" />
+      <Item value="IList" priority="31" />
+      <Item value="ReportData`0" priority="191" />
+      <Item value="void" priority="127" />
+      <Item value="reportData" priority="320" />
+      <Item value="TestInitialize" priority="31" />
+      <Item value="public" priority="190" />
+      <Item value="DataFieldRepository" priority="156" />
+      <Item value="ReportData" priority="86" />
+      <Item value="prop" priority="223" />
+      <Item value="long" priority="30" />
+      <Item value="Id" priority="31" />
+      <Item value="Name" priority="32" />
+      <Item value="Assert`0" priority="63" />
+      <Item value="private" priority="126" />
+      <Item value="connection" priority="32" />
+      <Item value="null" priority="156" />
+      <Item value="SQLiteConnection" priority="57" />
+      <Item value="if" priority="190" />
+      <Item value="_connectString" priority="94" />
+      <Item value="SQLiteConnectionStringBuilder" priority="28" />
+      <Item value="builder" priority="95" />
+      <Item value="System" priority="31" />
+      <Item value="Runtime" priority="26" />
+      <Item value="Hosting" priority="26" />
+      <Item value="ApplicationActivator`0" priority="26" />
+      <Item value="GetConnectStr" priority="31" />
+      <Item value="_connection" priority="63" />
+      <Item value="const" priority="31" />
+      <Item value="command" priority="64" />
+      <Item value="SQLiteCommand" priority="28" />
+      <Item value="GET_ALL_SQL" priority="31" />
+      <Item value="reader" priority="254" />
+      <Item value="while" priority="31" />
+      <Item value="IDataReader`0" priority="31" />
+      <Item value="var" priority="63" />
+      <Item value="List" priority="28" />
+      <Item value="all" priority="31" />
+      <Item value="model" priority="95" />
+      <Item value="GetAll`0" priority="63" />
+      <Item value="INSERT_SQL" priority="31" />
+      <Item value="_instance" priority="61" />
+      <Item value="SqLiteDbHelper" priority="28" />
+      <Item value="List&lt;SQLiteParameter&gt;" priority="28" />
+      <Item value="parameters" priority="63" />
+      <Item value="SQLiteParameter" priority="86" />
+      <Item value="foreach" priority="31" />
+      <Item value="dbData" priority="31" />
+      <Item value="name" priority="126" />
+      <Item value="true" priority="31" />
+      <Item value="finally" priority="31" />
+      <Item value="Delete`0" priority="31" />
+      <Item value="DELETE_SQL" priority="31" />
+      <Item value="TestMethod" priority="31" />
+      <Item value="throw" priority="95" />
+      <Item value="GetByName`0" priority="31" />
+      <Item value="existed" priority="63" />
+      <Item value="UPDATE_SQL" priority="31" />
+      <Item value="int" priority="62" />
+      <Item value="WeakReference`0" priority="31" />
+      <Item value="decimal" priority="31" />
+      <Item value="float" priority="31" />
+      <Item value="DateTime`0" priority="31" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ReportGen.Dal.IDataFieldRepository">
+      <Item value="Save`0" priority="26" />
+      <Item value="GetAll`0" priority="26" />
+      <Item value="GetByName`0" priority="26" />
+      <Item value="Delete`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.VisualStudio.TestTools.UnitTesting.Assert">
+      <Item value="IsTrue`0" priority="26" />
+      <Item value="IsNotNull`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IList`1">
+      <Item value="Count" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SQLite.SQLiteConnectionStringBuilder">
+      <Item value="DataSource" priority="27" />
+      <Item value="ToString`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Reflection.Assembly">
+      <Item value="GetExecutingAssembly`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SQLite.SQLiteCommand">
+      <Item value="ExecuteReader`0" priority="26" />
+      <Item value="ExecuteNonQuery`0" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SQLite.SQLiteDataReader">
+      <Item value="GetInt16`0" priority="26" />
+      <Item value="Read`0" priority="53" />
+      <Item value="Close`0" priority="53" />
+      <Item value="HasRows" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add`0" priority="81" />
+      <Item value="ToArray`0" priority="54" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ReportGen.Model.ReportData">
+      <Item value="Id" priority="134" />
+      <Item value="Name" priority="136" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.IDataReader">
+      <Item value="GetString`0" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SQLite.SQLiteConnection">
+      <Item value="Open`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ReportGen.Dal.SqLiteDbHelper">
+      <Item value="CreateDB`0" priority="26" />
+      <Item value="Instance" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ReportGen.Dal.SqLiteDbHelper">
+      <Item value="ExecuteReader`0" priority="26" />
+      <Item value="ExecuteNonQuery`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Diagnostics.Debug">
+      <Item value="WriteLine`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="IsNullOrEmpty`0" priority="26" />
     </ItemStatistics>
   </CompletionStatisticsManager>
+  <UnitTestSessions>
+    <Session>
+      <Name>Session #1</Name>
+      <Elements>
+        <UnitTestElement Provider="MSTest" Id="ReportGenTest.ServiceTest" type="MsTestTestClassElement" TypeName="ReportGenTest.ServiceTest" Project="3FC49B9B-F38A-4E7D-8579-CF5533903F4B" />
+        <UnitTestElement Provider="MSTest" Id="ReportGenTest.ServiceTest.TestDelete" ParentId="ReportGenTest.ServiceTest" type="MsTestTestMethodElement" MethodName="TestDelete" Project="3FC49B9B-F38A-4E7D-8579-CF5533903F4B" />
+        <UnitTestElement Provider="MSTest" Id="ReportGenTest.ServiceTest.TestSave" ParentId="ReportGenTest.ServiceTest" type="MsTestTestMethodElement" MethodName="TestSave" Project="3FC49B9B-F38A-4E7D-8579-CF5533903F4B" />
+      </Elements>
+    </Session>
+  </UnitTestSessions>
 </Configuration>
