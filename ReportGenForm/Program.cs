@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
+using ReportGen;
 
-namespace ReportGen
+namespace ReportGenForm
 {
     static class Program
     {
