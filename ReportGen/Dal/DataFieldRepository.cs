@@ -1,16 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
+<<<<<<< HEAD
 using System.Data;
 using System.Data.SQLite;
 using System.Linq;
 using System.Reflection;
 using System.Text;
 using ReportGen.Model;
+=======
+using System.Linq;
+using System.Text;
+>>>>>>> ab03f3c3b1226efe92881b9796b7a200d6bde720
 
 namespace ReportGen.Dal
 {
     public class DataFieldRepository : IDataFieldRepository
     {
+<<<<<<< HEAD
         private SQLiteConnection _connection = null;
         private string _connectString = null;
 
@@ -102,5 +108,7 @@ namespace ReportGen.Dal
             parameters.Add(new SQLiteParameter("@Name", reportData.Name));
             return parameters.ToArray();
         }
+=======
+>>>>>>> ab03f3c3b1226efe92881b9796b7a200d6bde720
     }
 }

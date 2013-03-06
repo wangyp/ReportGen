@@ -33,19 +33,26 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Reference Include="DocumentFormat.OpenXml, Version=2.0.5022.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\ThirdPart\DocumentFormat.OpenXml.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>..\ThirdPart\NUnit.2.6.0.12054\lib\nunit.framework.dll</HintPath>
     </Reference>
+=======
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+>>>>>>> ab03f3c3b1226efe92881b9796b7a200d6bde720
     <Reference Include="System" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
+<<<<<<< HEAD
     <Reference Include="WordDocumentGenerator.Library, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\ThirdPart\WordDocumentGenerator.Library.dll</HintPath>
     </Reference>
+=======
+>>>>>>> ab03f3c3b1226efe92881b9796b7a200d6bde720
   </ItemGroup>
   <ItemGroup>
     <CodeAnalysisDependentAssemblyPaths Condition=" '$(VS100COMNTOOLS)' != '' " Include="$(VS100COMNTOOLS)..\IDE\PrivateAssemblies">
@@ -56,7 +63,10 @@
     <Compile Include="ServiceTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DalTest.cs" />
+<<<<<<< HEAD
     <Compile Include="TestBase.cs" />
+=======
+>>>>>>> ab03f3c3b1226efe92881b9796b7a200d6bde720
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ReportGen\ReportGen.csproj">

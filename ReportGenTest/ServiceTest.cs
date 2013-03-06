@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿using NUnit.Framework;
 using ReportGen.Model;
 using ReportGen.Service;
@@ -21,6 +22,22 @@ namespace ReportGenTest
         {
             ReportData data = GetSampleData();
             WordGenerateService.Generate(WordGenerateService.SUBSCRIBESUMMARY, data, "test.docx");
+=======
+﻿using System;
+using System.Text;
+using System.Collections.Generic;
+using System.Linq;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+
+namespace ReportGenTest
+{
+    [TestClass]
+    public class DalTest
+    {
+        [TestMethod]
+        public void TestMethod1()
+        {
+>>>>>>> ab03f3c3b1226efe92881b9796b7a200d6bde720
         }
     }
 }

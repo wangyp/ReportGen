@@ -4,13 +4,29 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportGen", "ReportGen\ReportGen.csproj", "{9F788645-FBC1-4EC0-B4A0-A23016123DEA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportGenTest", "ReportGenTest\ReportGenTest.csproj", "{3FC49B9B-F38A-4E7D-8579-CF5533903F4B}"
+<<<<<<< HEAD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportGenForm", "ReportGenForm\ReportGenForm.csproj", "{43DF95AB-91E2-4372-B353-2ED0C9DCF2FC}"
+=======
+>>>>>>> ab03f3c3b1226efe92881b9796b7a200d6bde720
 	ProjectSection(ProjectDependencies) = postProject
 		{9F788645-FBC1-4EC0-B4A0-A23016123DEA} = {9F788645-FBC1-4EC0-B4A0-A23016123DEA}
 	EndProjectSection
 EndProject
+<<<<<<< HEAD
+=======
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{19D0A6E8-5FBA-4BEC-B1CA-65818530D4CE}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		ReportGen.vsmdi = ReportGen.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+>>>>>>> ab03f3c3b1226efe92881b9796b7a200d6bde720
 Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = ReportGen.vsmdi
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -40,6 +56,7 @@ Global
 		{3FC49B9B-F38A-4E7D-8579-CF5533903F4B}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{3FC49B9B-F38A-4E7D-8579-CF5533903F4B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{3FC49B9B-F38A-4E7D-8579-CF5533903F4B}.Release|x86.ActiveCfg = Release|Any CPU
+<<<<<<< HEAD
 		{43DF95AB-91E2-4372-B353-2ED0C9DCF2FC}.Debug|Any CPU.ActiveCfg = Debug|x86
 		{43DF95AB-91E2-4372-B353-2ED0C9DCF2FC}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
 		{43DF95AB-91E2-4372-B353-2ED0C9DCF2FC}.Debug|Mixed Platforms.Build.0 = Debug|x86
@@ -50,6 +67,8 @@ Global
 		{43DF95AB-91E2-4372-B353-2ED0C9DCF2FC}.Release|Mixed Platforms.Build.0 = Release|x86
 		{43DF95AB-91E2-4372-B353-2ED0C9DCF2FC}.Release|x86.ActiveCfg = Release|x86
 		{43DF95AB-91E2-4372-B353-2ED0C9DCF2FC}.Release|x86.Build.0 = Release|x86
+=======
+>>>>>>> ab03f3c3b1226efe92881b9796b7a200d6bde720
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
